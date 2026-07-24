@@ -1,0 +1,89 @@
+/* tbh-transparency */
+html,
+body,
+body.bg-gray-50,
+body.dark\:bg-gray-900,
+body.dark\:bg-slate-900,
+body > div.dark\:bg-gray-900,
+header,
+header.dark\:bg-gray-800,
+header.dark\:bg-slate-900,
+nav,
+footer,
+footer.dark\:bg-gray-900,
+#content,
+#content > div.overflow-hidden,
+div.dark\:bg-gray-900.min-h-screen {
+  background-color: transparent !important;
+  background: none !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  transition:
+    background-color 0.5s ease-in-out,
+    background 0.5s ease-in-out,
+    border-color 0.5s ease-in-out,
+    box-shadow 0.5s ease-in-out !important;
+}
+
+/* tbh-glass vars */
+:root {
+  --tbh-glass-bg: rgba(15, 17, 23, 0.55);
+  --tbh-glass-border: rgba(255, 255, 255, 0.08);
+  --tbh-glass-blur: blur(18px) saturate(160%);
+  --swal2-background: rgba(24, 24, 28, 0.7) !important;
+}
+
+/* tbh-cards */
+.shadow-sm.rounded-xl,
+.rounded-xl.shadow-sm,
+.flex.flex-col.shadow-sm.rounded-xl,
+.flex.flex-col.bg-white.shadow-sm.rounded-xl,
+.border.rounded-lg.overflow-hidden,
+.absolute.z-50.w-full.bg-white.rounded-xl {
+  background-color: var(--tbh-glass-bg) !important;
+  backdrop-filter: var(--tbh-glass-blur) !important;
+  -webkit-backdrop-filter: var(--tbh-glass-blur) !important;
+  border: 1px solid var(--tbh-glass-border) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* tbh-dropdowns */
+.hs-dropdown-menu {
+  background-color: var(--tbh-glass-bg) !important;
+  backdrop-filter: var(--tbh-glass-blur) !important;
+  -webkit-backdrop-filter: var(--tbh-glass-blur) !important;
+  border: 1px solid var(--tbh-glass-border) !important;
+}
+
+/* tbh-popups */
+.swal2-popup {
+  background: var(--tbh-glass-bg) !important;
+  backdrop-filter: var(--tbh-glass-blur) !important;
+  -webkit-backdrop-filter: var(--tbh-glass-blur) !important;
+  border: 1px solid var(--tbh-glass-border) !important;
+}
+div:where(.swal2-container).swal2-backdrop-show {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+/* tbh-tables */
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+  background-color: transparent !important;
+}
+
+/* tbh-inputs */
+input,
+select,
+textarea {
+  background-color: rgba(255, 255, 255, 0.06) !important;
+}
+
+/* tbh-no header border */
+header.print\:hidden {
+  border-color: transparent !important;
+}
