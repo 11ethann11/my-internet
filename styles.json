@@ -2850,6 +2850,16 @@
       "darkreader": ":root {\n  --darkreader-background-ffffff: transparent !important;\n}",
       "no footer": "footer {\n  display: none !important;\n}"
     },
+    "thebothost.com.css": {
+      "tbh-transparency": "html,\nbody,\nbody.bg-gray-50,\nbody.dark\\:bg-gray-900,\nbody.dark\\:bg-slate-900,\nbody > div.dark\\:bg-gray-900,\nheader,\nheader.dark\\:bg-gray-800,\nheader.dark\\:bg-slate-900,\nnav,\nfooter,\nfooter.dark\\:bg-gray-900,\n#content,\n#content > div.overflow-hidden,\ndiv.dark\\:bg-gray-900.min-h-screen {\n  background-color: transparent !important;\n  background: none !important;\n  border-color: transparent !important;\n  box-shadow: none !important;\n  transition:\n    background-color 0.5s ease-in-out,\n    background 0.5s ease-in-out,\n    border-color 0.5s ease-in-out,\n    box-shadow 0.5s ease-in-out !important;\n}",
+      "tbh-glass vars": ":root {\n  --tbh-glass-bg: rgba(15, 17, 23, 0.55);\n  --tbh-glass-border: rgba(255, 255, 255, 0.08);\n  --tbh-glass-blur: blur(18px) saturate(160%);\n  --swal2-background: rgba(24, 24, 28, 0.7) !important;\n}",
+      "tbh-cards": ".shadow-sm.rounded-xl,\n.rounded-xl.shadow-sm,\n.flex.flex-col.shadow-sm.rounded-xl,\n.flex.flex-col.bg-white.shadow-sm.rounded-xl,\n.border.rounded-lg.overflow-hidden,\n.absolute.z-50.w-full.bg-white.rounded-xl {\n  background-color: var(--tbh-glass-bg) !important;\n  backdrop-filter: var(--tbh-glass-blur) !important;\n  -webkit-backdrop-filter: var(--tbh-glass-blur) !important;\n  border: 1px solid var(--tbh-glass-border) !important;\n  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25) !important;\n}",
+      "tbh-dropdowns": ".hs-dropdown-menu {\n  background-color: var(--tbh-glass-bg) !important;\n  backdrop-filter: var(--tbh-glass-blur) !important;\n  -webkit-backdrop-filter: var(--tbh-glass-blur) !important;\n  border: 1px solid var(--tbh-glass-border) !important;\n}",
+      "tbh-popups": ".swal2-popup {\n  background: var(--tbh-glass-bg) !important;\n  backdrop-filter: var(--tbh-glass-blur) !important;\n  -webkit-backdrop-filter: var(--tbh-glass-blur) !important;\n  border: 1px solid var(--tbh-glass-border) !important;\n}\ndiv:where(.swal2-container).swal2-backdrop-show {\n  background: rgba(0, 0, 0, 0.4) !important;\n}",
+      "tbh-tables": "table,\nthead,\ntbody,\ntr,\ntd,\nth {\n  background-color: transparent !important;\n}",
+      "tbh-inputs": "input,\nselect,\ntextarea {\n  background-color: rgba(255, 255, 255, 0.06) !important;\n}",
+      "tbh-no header border": "header.print\\:hidden {\n  border-color: transparent !important;\n}"
+    }
     "thebalancemoney.com.css": {
       "transparency": "html, body, nav, header, .app-root, #pass-sidebar, #main, #content, section, .mntl-header-nav__list, header:not(.mntl-header--scroll-header) .mntl-header__menu-top, .card, .toc-wrapper {\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n  transition:\n    background-color 0.5s ease-in-out,\n    background 0.5s ease-in-out,\n    border 0.5s ease-in-out,\n    box-shadow 0.5s ease-in-out !important;\n}",
       "darkreader": ":root {\n  --darkreader-background-ffffff: transparent !important;\n}",
