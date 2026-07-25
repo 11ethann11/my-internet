@@ -2860,7 +2860,7 @@
       "tbh-inputs": "input,\nselect,\ntextarea {\n  background-color: rgba(255, 255, 255, 0.06) !important;\n}",
       "tbh-no header border": "header.print\\:hidden {\n  border-color: transparent !important;\n}",
       "tbh-scroll-nav-transparency": ".overflow-x-auto.scrollbar-hide,\n.overflow-x-auto,\n.snap-x,\ndiv:has(> .snap-center.shrink-0) {\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n.snap-center.shrink-0 {\n  background-color: transparent !important;\n}",
-      "tbh-topbar-transparency": "header,\nheader > div,\nnav:has(> a[href=\"/\"]),\ndiv:has(> a[href=\"/\"] > i.bi-house-door) {\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}"
+      "tbh-nav-links-transparency": "nav[aria-label=\"Global\"] > div.hs-overlay,\n#navbar-menu {\n  background-color: transparent !important;\n  background: none !important;\n  border-color: transparent !important;\n  box-shadow: none !important;\n}"
     },
     "thebalancemoney.com.css": {
       "transparency": "html, body, nav, header, .app-root, #pass-sidebar, #main, #content, section, .mntl-header-nav__list, header:not(.mntl-header--scroll-header) .mntl-header__menu-top, .card, .toc-wrapper {\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n  transition:\n    background-color 0.5s ease-in-out,\n    background 0.5s ease-in-out,\n    border 0.5s ease-in-out,\n    box-shadow 0.5s ease-in-out !important;\n}",
