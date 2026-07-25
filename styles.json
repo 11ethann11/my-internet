@@ -2855,9 +2855,6 @@
       "darkreader": ":root {\n  --darkreader-background-ffffff: transparent !important;\n}",
       "no footer": "footer {\n  display: none !important;\n}"
     },
-    "thebothost.com.css": {
-      "transparency": "html, body, body.bg-gray-50, body.dark\:bg-gray-900, body.dark\:bg-slate-900, body > div.dark\:bg-gray-900, header, header.dark\:bg-gray-800, header.dark\:bg-slate-900, nav, footer, footer.dark\:bg-gray-900, #content, #content > div.overflow-hidden, div.dark\:bg-gray-900.min-h-screen {\n  background-color: transparent !important;\n  background: none !important;\n  border-color: transparent !important;\n  box-shadow: none !important;\n  transition:\n    background-color 0.5s ease-in-out,\n    background 0.5s ease-in-out,\n    border-color 0.5s ease-in-out,\n    box-shadow 0.5s ease-in-out !important;\n}",
-    },
     "theepochtimes.com.css": {
       "transparency": "html, body, nav, header {\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n  transition:\n    background-color 0.5s ease-in-out,\n    background 0.5s ease-in-out,\n    border 0.5s ease-in-out,\n    box-shadow 0.5s ease-in-out !important;\n}",
       "darkreader": ":root {\n  --darkreader-background-ffffff: transparent !important;\n}",
